@@ -1,0 +1,7 @@
+-- SELECT - permite pesquisar dados especificos de uma ou mais tabelas 
+-- O * seleciona todas as colunas da tabela
+SELECT first_name FROM employees
+
+--SELET com condição
+SELECT first_name, last_name, job_id FROM employees WHERE job_id = 'SA_REP' 
+
